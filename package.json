@@ -1,0 +1,19 @@
+{
+  "name": "swagger-static",
+  "version": "0.1.0",
+  "author": "Lineberty",
+  "bin": {
+    "swagger-static": "./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineberty/swagger-static.git"
+  },
+  "dependencies": {
+    "commander": "2.8.0",
+    "express": "4.12.3",
+    "serve-index": "1.6.3"
+  },
+  "main": "./app.js",
+  "license": "MIT"
+}
