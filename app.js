@@ -7,7 +7,7 @@ var program = require('commander');
 var app = express();
 
 program
-    .version('0.1.0')
+    .version('0.3.0')
     .option('-p, --port <n>', 'port', parseInt)
     .parse(process.argv);
 
